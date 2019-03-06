@@ -28,13 +28,30 @@
    * The entire content and the main section content area is `960px` wide.
 */
 
+h1{
+    font-size: 22pt;
+    color: #4aaaa5;
+}
+
+h2{
+    font-size: 18pt
+}
+
+h3{
+    font-size: 14pt
+}
+
+p, form{
+    font-size: 10pt
+}
+
 body {
     color:#777777;
     border: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("/assets/images/white-waves.png");
+    background-image: url("../images/white-waves.png");
     background-repeat: repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 header {
@@ -43,30 +60,33 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-width: 0px 0px 3px 0px;
     border-style:solid;
+    width: 100%;
+    height: 70px;
 }
+
 
 
 a:link {
     color:#777777;
     text-decoration: none;
-  }
+}
 
-  a:visited {
+a:visited {
     color:rgb(134, 11, 134);
     text-decoration: none;
-  }
+}
 
-  a:hover {
+a:hover {
     color:rgb(124, 4, 4);
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
-  a:active {
+a:active {
     color:rgb(179, 53, 8);
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
 footer {
     background-color: #666666;
@@ -76,13 +96,20 @@ footer {
     border-style: solid; 
     border-width: 10px 0px 0px 0px;
     border-color: #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
 }
 
 
 div.container{
     width:80%;
-    margin: auto;
-    padding: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: white;
 }
 
 #square1{
@@ -90,7 +117,7 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #square2{
@@ -98,7 +125,7 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #square3{
@@ -106,7 +133,7 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #square4{
@@ -114,7 +141,7 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #square5{
@@ -122,7 +149,7 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #square6{
@@ -130,23 +157,51 @@ div.container{
     margin: 20px;
     padding: 10px;
     float: left;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
 }
 
 #header_name{
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    width: 200px;
-    position: relative;
-    bottom: 0px;
+    width: 160px;
+    height: 40px;
+    position: fixed;
+    top: 12px;
+    left: 100px;
+    text-align: center;
+    color: white;
 }
 
-#header_links{
+#header_link_contact{
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     width: 100px;
-    position: absolute;
-    right: 0px;
+    position: fixed;
+    top: 16px;
+    right: 100px;
+    text-align: center
+}
+
+#header_link_portfolio{
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 100px;
+    position: fixed;
+    top: 16px;
+    right: 200px;
+    text-align: center
+}
+
+#header_link_index{
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 100px;
+    position: fixed;
+    top: 16px;
+    right: 300px;
+    text-align: center
 }

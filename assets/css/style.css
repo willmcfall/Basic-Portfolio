@@ -28,21 +28,29 @@
    * The entire content and the main section content area is `960px` wide.
 */
 
-body{
+body {
     background-color:#ffffff;
     color:#777777;
     border: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: #4aaaa5;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-footer{
+footer {
     background-color: #666666;
 }
 
+
+div.container {
+    display: block;
+    float: left:
+    width:auto;
+    height: auto;
+    background: black;
+}

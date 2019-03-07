@@ -77,12 +77,6 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color:rgb(124, 4, 4);
-    background-color: transparent;
-    text-decoration: none;
-}
-
 a:active {
     color:rgb(179, 53, 8);
     background-color: transparent;
